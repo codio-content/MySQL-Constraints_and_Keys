@@ -9,5 +9,13 @@ While planning how the school managament system should work, the `classrooms` an
 The `course_id` reference will allow us, the SQL developers, to create `SELECT` queries that will _join_ information about the `school.classrooms` table and the `schools.courses` in a single representation.
 
 
+|||info
+### What does `MUL` mean?
+The `SHOW COLUMNS FROM school.classrooms;` display the `FOREIGN KEY` as `MUL` in the `KEY` column. 
+
+The name comes from “multiple” because multiple occurences of the same value are allowed. 
+|||
+
+
 ---
 Complete a challenge about SQL constraints in the next section.

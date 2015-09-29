@@ -81,7 +81,18 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-8-6f19.md",
+   "content-file": ".guides/content/Unique-and-Foreign-keys-6f19.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "707154b6-4923-1658-bdef-fcd7a2a2732b",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-9-7071.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

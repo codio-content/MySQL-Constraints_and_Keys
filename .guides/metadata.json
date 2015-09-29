@@ -1,0 +1,70 @@
+{
+ "sections": [
+  {
+   "id": "a5543ba2-1918-68b8-55f7-96f1d934b5de",
+   "title": "Recap",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Recap-a554.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "152565ef-2c83-e55-72c5-329726759231",
+   "title": "What we'll learn",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/What-we-ll-learn-1525.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "5202e907-2191-526a-6ec8-609c49823c70",
+   "title": "The foreign key",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-foreign-key-5202.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "83d8cb10-c525-bc3-9607-643e2feaae20",
+   "title": "Foreign key",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-5-83d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ea9e588-d0fc-b5cd-6594-4f9cf8fa6d52",
+   "title": "New Section 4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-4-ea9e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}

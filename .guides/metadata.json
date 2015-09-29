@@ -47,7 +47,41 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-5-83d8.md",
+   "content-file": ".guides/content/Foreign-key-83d8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "df1b5c24-acd9-b497-126f-7761d6c0e757",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-df1b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2d43ef57-add5-315e-1a37-5b3742d8e1e8",
+   "title": "Foreign key definition",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Foreign-key-definition-2d43.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "6f19d796-c504-fb07-fd35-8fd5512fe3c4",
+   "title": "Unique and Foreign keys",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-8-6f19.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

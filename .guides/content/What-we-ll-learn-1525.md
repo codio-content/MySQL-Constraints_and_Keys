@@ -1,11 +1,10 @@
-Regarding SQL constraints, we've covered the `NOT NULL` and the `PRIMARY KEY` constraint, in this unit, we are going to cover a new SQL constraint: __foreign keys__.
+Regarding SQL constraints, we've covered the `NOT NULL` and the `PRIMARY KEY` constraint, in this unit, we are going to cover 2 new SQL constraints: the `FOREIGN KEY` and the `UNIQUE KEY`.
 
-By defining _Foreign keys_, we can create more advanced SQL `SELECT` queries using the `mysql` command line. 
+As the name implies, _unique keys_ only allow values that are not repeated in the same table column.
 
-These new `SELECT` queries will use a technology called: `JOINS`.
+On the other hand, _foreign keys_ work as a __common field between 2 or more tables__ allowing us to make more advanced SQL `SELECT` queries.
 
-SQL `JOINS` allow us to select data from two or more tables or databases __based on a common field between them__: the _foreign key_.
-
+These new `SELECT` queries will use a technology called: __JOINS__.
 
 ---
-Let's begin by examining the data from 2 different databases in the next section.
+Let's begin by examining the data from 2 different database tables in the next section.

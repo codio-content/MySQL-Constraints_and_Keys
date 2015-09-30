@@ -103,7 +103,18 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-10-d222.md",
+   "content-file": ".guides/content/Challenge-d222.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "30bb5789-2046-1a29-7c7f-3fc42078d51b",
+   "title": "SQL JOIN",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-11-30bb.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

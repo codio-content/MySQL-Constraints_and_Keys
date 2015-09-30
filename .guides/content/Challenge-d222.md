@@ -1,5 +1,8 @@
 {Check It!|assessment}(test-4109869715)
 
+Ok, it's time to learn how to use the SQL `JOIN` keyword. 
+Go to the next section.
+
 |||guidance
 ### Correct answers:
 

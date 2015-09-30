@@ -12,7 +12,7 @@ However, the `FOREIGN KEY` includes an additional keyword, `REFERENCES`:
 ```
 CREATE TABLE school.classrooms (
   ...
-  course_id INT(3) UNSIGNED NOT NULL,
+  course_id INT(3) UNSIGNED DEFAULT NULL,
   FOREIGN KEY (course_id) REFERENCES school.courses(id)
   ...
 ```

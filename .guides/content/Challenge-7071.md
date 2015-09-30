@@ -5,7 +5,7 @@ Complete this set of challenges by creating a `college.classrooms` table in the 
 |||guidance
 ### Correct answers:
 
-`USE DATABASE college;`
+`USE college;`
 
 ```
 CREATE TABLE courses (

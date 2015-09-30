@@ -5,6 +5,7 @@ While planning how the school managament system should work, the `classrooms` an
 - The school offers different _courses_ that are taken by a group of students in a _classroom_
 - The `classrooms` table has a `course_id` column which references the course to be held in a specific classroom
 - The `course_id` is working as the `FOREIGN KEY` that is associated with the `id` column of the `school.courses` table
+- Some classrooms may not have a course assigned yet, so `course_id` defaults to `NULL`
 
 The `course_id` reference will allow us, the SQL developers, to create `SELECT` queries that will _join_ information about the `school.classrooms` table and the `schools.courses` in a single representation.
 

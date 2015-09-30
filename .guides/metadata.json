@@ -190,6 +190,40 @@
    "teacherOnly": false
   },
   {
+   "id": "1a5863e7-1e81-7cea-b0f0-c97df2636ff8",
+   "title": "SQL Joins practical uses",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/SQL-Joins-practical-uses-1a58.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7ab83015-88c9-c998-54f1-9d04a716faa6",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-7ab8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "727b3be-af23-d411-f57c-9d9f77db8d77",
+   "title": "Joining specific columns",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Specific-SQL-joins-727b.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "ea9e588-d0fc-b5cd-6594-4f9cf8fa6d52",
    "title": "New Section 4",
    "files": [],

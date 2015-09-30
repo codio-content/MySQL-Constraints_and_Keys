@@ -7,4 +7,4 @@ On the other hand, _foreign keys_ work as a __common field between 2 or more tab
 These new `SELECT` queries will use a technology called: __JOINS__.
 
 ---
-Let's begin by examining the data from 2 different database tables in the next section.
+Let's begin by examining the data from 2 different tables in the next section.

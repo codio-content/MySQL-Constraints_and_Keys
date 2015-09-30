@@ -1,5 +1,8 @@
 {Check It!|assessment}(test-4119455732)
 
+It is possible to `SELECT` only specific columns from two tables in a `JOIN` statement. 
+
+Learn this in the next section.
 
 |||guidance
 

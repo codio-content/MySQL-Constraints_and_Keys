@@ -292,6 +292,39 @@
    "teacherOnly": false
   },
   {
+   "id": "f4f56357-bcc6-5c68-589f-a7be20054e4c",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-f4f5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7c668398-3d89-b12-beaa-6c17f056e6b0",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-7c66.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "fe151867-ec29-b654-9110-e709e3c642a3",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-29-fe15.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "ea9e588-d0fc-b5cd-6594-4f9cf8fa6d52",
    "title": "That's all folks",
    "files": [],

@@ -1,3 +1,11 @@
+|||info
+### Reset section database
+If you make a mistake while editing the `school` database in this set of sections or just want to reset the database back to its original state, return to this page and click the “Reset Section Database” button below.
+
+{Reset Section Database}(node .guides/sqltests/fw-sql-reset-school.js)
+|||
+---
+
 Very often, new columns need to be added to existing database tables as our management systems grow.
 
 Our `school` database has a `students` table. 

@@ -1,3 +1,11 @@
+|||info
+### Reset section database
+If you make a mistake while editing the `blog` database in this set of challenges or just want to reset the database back to its original state, return to this page and click the “Reset Section Database” button below.
+
+{Reset Section Database}(node .guides/sqltests/fw-sql-reset-blog.js)
+|||
+---
+
 As you have experienced, relationships between different database tables are a very common of organizing data in a relational database system.
 
 In this last set of challenges, you'll be working with a `blog` database. This database will have a `posts` table, a `users` table and a `comments` table. 

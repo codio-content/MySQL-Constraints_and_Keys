@@ -25,6 +25,18 @@
    "teacherOnly": false
   },
   {
+   "id": "11b0e536-4611-5d-a93d-664fbe813d93",
+   "title": "Resetting the unit's databases",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Resetting-the-unit-s-databases-11b0.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "5202e907-2191-526a-6ec8-609c49823c70",
    "title": "The foreign key",
    "files": [
@@ -319,7 +331,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-29-fe15.md",
+   "content-file": ".guides/content/Challenge-fe15.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

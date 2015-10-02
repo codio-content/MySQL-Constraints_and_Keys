@@ -61,8 +61,11 @@ function queryDatabaseByType(query){
 	return new Promise(function(resolve, reject){
 		connectTo(globalDbName);
 		connection.query(query, function(err, rows, fields) {
-		  if (err)
-  			errorLogs.queryDatabaseByType(globalCount);
+		  if (err) {
+        // console.log(err);
+        // errorLogs.queryMismatch(task);
+  			errorLogs.queryDatabase(globalCount);
+      }
 	  	if (rows.insertId)
 	  		rows.insertId = 1;
   		output = Utils.sortResult(rows);
@@ -92,7 +95,7 @@ function dbLookup(dbName, tasks, userQueriesArr){
 					process.exit(0);
 				}
 			} else {
-				errorLogs.queryMismatch(globalCount, task);
+				errorLogs.queryMismatch(task);
 			}
 		}).catch(function(){
 			console.log('Failed to retrieve userQueries from db');
@@ -104,7 +107,7 @@ function dbLookup(dbName, tasks, userQueriesArr){
 	});
 }
 
-sqltest.test = function(srcFile, dbName, tasks, pholder){
+sqltest.init = function(srcFile, dbName, tasks, pholder){
 	globalDbName = dbName;
 	placeholder = pholder ? pholder : '';
 	readChallengeFile(srcFile, tasks).then(function(userQueriesArr){

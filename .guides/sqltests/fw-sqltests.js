@@ -30,24 +30,41 @@ function connectTo(db) {
 
 // Test environment
 function test(){
-	// console.log(count);
-	// console.log(`Testing: ${tasksArr[count][1]}. Task: ${count+1}`);
+  console.log(count);
 	if (count < tasksArr.length) {
 		var query = tasksArr[count][1];
 		return new Promise(function(resolve, reject){
 			connectTo(db);
-			connection.query(query, function(err, rows, fields) {
-				if (err) {
-					errorLogs.queryMismatch(count, tasksArr[count][0]);
-        }
-				// console.log(rows);
-				count++;
-				test();
-			});
+      if (tasksArr[count][2] === 'error') {
+        // console.log(tasksArr[count][2]);
+        connection.query(query, function(err, rows, fields) {
+          if (err) {
+            console.log(err);
+            count++;
+            test();
+          } else {
+            errorLogs.queryMismatch(tasksArr[count][0]); 
+          }
+        });
+      } else {
+        // console.log(tasksArr[count][2]);
+        connection.query(query, function(err, rows, fields) {
+          if (err) {
+            console.log(err);
+            errorLogs.queryMismatch(tasksArr[count][0]);
+          } else if (rows.length < 1) {
+            errorLogs.queryMismatch(tasksArr[count][0]);
+            console.log(rows);
+          } else {
+            count++;
+            test();
+          }
+        });
+      }
 		});
 	} else {
     console.log('Well done!');
-		process.exit(0); 
+		process.exit(0);
 	}
 }
 

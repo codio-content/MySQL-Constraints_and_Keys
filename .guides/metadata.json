@@ -147,8 +147,21 @@
   {
    "id": "fb7257bb-1987-fa25-a0eb-abcb7f7fb1d5",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-5-3.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [
+    "sql-5-3.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-fb72.md",
    "chapter": false,
@@ -181,8 +194,21 @@
   {
    "id": "c587f257-21b9-562a-8b53-a75ec4b851b",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-5-4.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [
+    "sql-5-4.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-c587.md",
    "chapter": false,
@@ -215,8 +241,21 @@
   {
    "id": "7ab83015-88c9-c998-54f1-9d04a716faa6",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-5-5.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [
+    "sql-5-5.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-7ab8.md",
    "chapter": false,
@@ -238,8 +277,21 @@
   {
    "id": "47bee3-8747-8ac0-43b7-48ceaf2573ed",
    "title": "Challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-5-6.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [
+    "sql-5-6.sql"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-47be.md",
    "chapter": false,

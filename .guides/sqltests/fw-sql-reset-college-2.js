@@ -33,6 +33,10 @@ var tasks = [
 		"'college' database reset",
 		'INSERT INTO college.classrooms (room_num, course_id)VALUES(2005, 1),(8009, 2),(1001, 3),(1050, DEFAULT)'
 	],
+  [
+		"'college' database reset",
+		'CREATE TABLE college.students (id INT(3) UNSIGNED NOT NULL AUTO_INCREMENT,name VARCHAR(255) NOT NULL UNIQUE KEY,PRIMARY KEY (id)) AUTO_INCREMENT = 1'
+	],
 	[
 		"'college' database reset",
 		'SET FOREIGN_KEY_CHECKS=1'

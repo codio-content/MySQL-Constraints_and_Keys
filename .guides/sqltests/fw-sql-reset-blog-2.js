@@ -35,6 +35,10 @@ var tasks = [
 	],
 	[
 		"'blog' database reset",
+		'CREATE TABLE blog.comments (id INT(3) UNSIGNED NOT NULL AUTO_INCREMENT,body TEXT DEFAULT NULL,user_id INT(7) UNSIGNED NOT NULL,PRIMARY KEY (id),FOREIGN KEY (user_id) REFERENCES blog.users(id)) AUTO_INCREMENT = 1'
+	],
+	[
+		"'blog' database reset",
 		'SET FOREIGN_KEY_CHECKS=1'
 	]
 ];

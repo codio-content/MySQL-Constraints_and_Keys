@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 /*
 	SQL Challenges framework
 	Version: 5.0 as of SQL3
@@ -30,7 +30,7 @@ function connectTo(db) {
 
 // Test environment
 function test(){
-  console.log(count);
+  // console.log(count);
 	if (count < tasksArr.length) {
 		var query = tasksArr[count][1];
 		return new Promise(function(resolve, reject){
@@ -39,7 +39,7 @@ function test(){
         // console.log(tasksArr[count][2]);
         connection.query(query, function(err, rows, fields) {
           if (err) {
-            console.log(err);
+            // console.log(err);
             count++;
             test();
           } else {
@@ -50,11 +50,11 @@ function test(){
         // console.log(tasksArr[count][2]);
         connection.query(query, function(err, rows, fields) {
           if (err) {
-            console.log(err);
+            // console.log(err);
             errorLogs.queryMismatch(tasksArr[count][0]);
           } else if (rows.length < 1) {
             errorLogs.queryMismatch(tasksArr[count][0]);
-            console.log(rows);
+            // console.log(rows);
           } else {
             count++;
             test();

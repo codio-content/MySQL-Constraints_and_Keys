@@ -3,8 +3,13 @@
   {
    "id": "a5543ba2-1918-68b8-55f7-96f1d934b5de",
    "title": "Recap",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Recap-a554.md",
@@ -15,8 +20,13 @@
   {
    "id": "152565ef-2c83-e55-72c5-329726759231",
    "title": "What we'll learn",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/What-we-ll-learn-1525.md",
@@ -27,8 +37,13 @@
   {
    "id": "11b0e536-4611-5d-a93d-664fbe813d93",
    "title": "Resetting the unit's databases",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Resetting-the-unit-s-databases-11b0.md",
@@ -45,7 +60,7 @@
      "action": "close"
     }
    ],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-foreign-key-5202.md",
@@ -56,7 +71,18 @@
   {
    "id": "83d8cb10-c525-bc3-9607-643e2feaae20",
    "title": "Foreign key",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Foreign-key-83d8.md",
@@ -67,7 +93,13 @@
   {
    "id": "df1b5c24-acd9-b497-126f-7761d6c0e757",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-df1b.md",
@@ -78,8 +110,13 @@
   {
    "id": "2d43ef57-add5-315e-1a37-5b3742d8e1e8",
    "title": "Foreign key definition",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Foreign-key-definition-2d43.md",
@@ -90,7 +127,13 @@
   {
    "id": "6f19d796-c504-fb07-fd35-8fd5512fe3c4",
    "title": "Unique and Foreign keys",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Unique-and-Foreign-keys-6f19.md",
@@ -101,7 +144,18 @@
   {
    "id": "707154b6-4923-1658-bdef-fcd7a2a2732b",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-7071.md",
@@ -112,7 +166,18 @@
   {
    "id": "d222ce7a-4e3b-f828-a6b5-640b2c978e68",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-d222.md",
@@ -123,8 +188,18 @@
   {
    "id": "30bb5789-2046-1a29-7c7f-3fc42078d51b",
    "title": "SQL inner join",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-inner-join-30bb.md",
@@ -135,8 +210,18 @@
   {
    "id": "c56aedb9-f1cd-357c-25ce-a13b73c068db",
    "title": "SQL inner join",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-inner-join-c56a.md",
@@ -171,8 +256,13 @@
   {
    "id": "3508a9b-ff31-ff8-f2c5-330aed16f17e",
    "title": "SQL left outer join",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-left-outer-join-3508.md",
@@ -183,7 +273,18 @@
   {
    "id": "ba8c7592-a40e-725c-78aa-7482bd0e3011",
    "title": "SQL left outer join",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-left-outer-join-ba8c.md",
@@ -218,8 +319,18 @@
   {
    "id": "d9cb877-d0e0-32ff-dd09-7de5f3352168",
    "title": "SQL right outer join",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-right-outer-join-d9cb.md",
@@ -230,7 +341,13 @@
   {
    "id": "1a5863e7-1e81-7cea-b0f0-c97df2636ff8",
    "title": "SQL Joins practical uses",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-Joins-practical-uses-1a58.md",
@@ -265,8 +382,18 @@
   {
    "id": "727b3be-af23-d411-f57c-9d9f77db8d77",
    "title": "Joining specific columns",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Joining-specific-columns-727b.md",
@@ -301,8 +428,18 @@
   {
    "id": "26acbd6e-83e7-b5f-11c-25292dec4da1",
    "title": "Adding the foreign key",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Adding-the-foreign-key-26ac.md",
@@ -313,7 +450,18 @@
   {
    "id": "f27f320f-df29-2763-3bef-258860ed7e29",
    "title": "Updating the table",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Updating-the-table-f27f.md",
@@ -324,7 +472,13 @@
   {
    "id": "c7bdb929-fc91-5f3e-2620-3bf485559904",
    "title": "Alter table in detail",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Alter-table-in-detail-c7bd.md",
@@ -335,7 +489,18 @@
   {
    "id": "6a7e72ec-6b4-38f6-bf8c-a5d3275c3f27",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-6a7e.md",
@@ -346,8 +511,13 @@
   {
    "id": "7df27b16-a1a-9509-82a5-69e688c5bfc8",
    "title": "Final challenges",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Final-challenges-7df2.md",
@@ -382,7 +552,18 @@
   {
    "id": "7c668398-3d89-b12-beaa-6c17f056e6b0",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-7c66.md",
@@ -393,7 +574,18 @@
   {
    "id": "fe151867-ec29-b654-9110-e709e3c642a3",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-fe15.md",
@@ -404,8 +596,13 @@
   {
    "id": "ea9e588-d0fc-b5cd-6594-4f9cf8fa6d52",
    "title": "That's all folks",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks-ea9e.md",

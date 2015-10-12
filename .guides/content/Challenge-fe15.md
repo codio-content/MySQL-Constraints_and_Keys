@@ -16,10 +16,10 @@ If you make a mistake while editing the `blog` database in this challenge or jus
 `USE blog;`
 
 ```
-ALTER TABLE comments
-ADD COLUMN post_id INT(3) UNSIGNED NOT NULL,
-ADD CONSTRAINT FOREIGN KEY (post_id)
-REFERENCES posts(id);
+mysql> ALTER TABLE comments
+    -> ADD COLUMN post_id INT(3) UNSIGNED NOT NULL,
+    -> ADD CONSTRAINT FOREIGN KEY (post_id)
+    -> REFERENCES posts(id);
 ```
 
 |||

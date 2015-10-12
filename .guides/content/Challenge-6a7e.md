@@ -15,10 +15,10 @@ If you make a mistake while editing the `college` database in this set of challe
 `USE college;`
 
 ```
-ALTER TABLE students
-ADD COLUMN classroom_id INT(3) UNSIGNED NULL,
-ADD CONSTRAINT FOREIGN KEY (classroom_id)
-REFERENCES classrooms(id);
+mysql> ALTER TABLE students
+    -> ADD COLUMN classroom_id INT(3) UNSIGNED NULL,
+    -> ADD CONSTRAINT FOREIGN KEY (classroom_id)
+    -> REFERENCES classrooms(id);
 ```
 
 |||

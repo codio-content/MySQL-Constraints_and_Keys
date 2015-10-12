@@ -166,18 +166,8 @@
   {
    "id": "d222ce7a-4e3b-f828-a6b5-640b2c978e68",
    "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-d222.md",
@@ -210,18 +200,8 @@
   {
    "id": "c56aedb9-f1cd-357c-25ce-a13b73c068db",
    "title": "SQL inner join",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-inner-join-c56a.md",
@@ -295,18 +275,8 @@
   {
    "id": "c587f257-21b9-562a-8b53-a75ec4b851b",
    "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "sql-5-4.sql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [
     "sql-5-4.sql"
    ],
@@ -450,18 +420,8 @@
   {
    "id": "f27f320f-df29-2763-3bef-258860ed7e29",
    "title": "Updating the table",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Updating-the-table-f27f.md",
@@ -574,18 +534,8 @@
   {
    "id": "fe151867-ec29-b654-9110-e709e3c642a3",
    "title": "Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: mysql",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-fe15.md",

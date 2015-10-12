@@ -18,6 +18,8 @@ Learn more in the next section.
 
 ### Correct answers:
 
+In the `sql-5-4.sql` file:
+
 `USE college;`
 
 ```

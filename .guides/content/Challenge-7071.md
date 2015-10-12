@@ -15,6 +15,8 @@ Complete this set of challenges by creating a `college.classrooms` table in the 
 
 `USE college;`
 
+Multi-line statement:
+
 ```
 mysql> CREATE TABLE courses (
     -> id INT(3) UNSIGNED NOT NULL AUTO_INCREMENT,

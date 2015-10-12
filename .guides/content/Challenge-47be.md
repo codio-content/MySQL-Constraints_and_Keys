@@ -12,6 +12,8 @@ If you make a mistake while editing the `college` database in this set of challe
 
 ### Correct answers:
 
+In the `sql-5-6.sql` file:
+
 `USE college;`
 
 ```

@@ -16,6 +16,8 @@ Learn this in the next section.
 
 ### Correct answers:
 
+In the `sql-5-5.sql` file:
+
 `USE college;`
 
 ```

@@ -16,6 +16,8 @@ Go to the next section.
 
 `USE college;`
 
+Multi-line statement:
+
 ```
 mysql> CREATE TABLE classrooms (
     -> id INT(3) UNSIGNED NOT NULL AUTO_INCREMENT,

@@ -12,6 +12,8 @@ If you make a mistake while editing the `blog` database in this challenge or jus
 
 `USE blog;`
 
+Multi-line statement:
+
 ```
 mysql> CREATE TABLE comments (
     -> id INT(3) UNSIGNED NOT NULL AUTO_INCREMENT,

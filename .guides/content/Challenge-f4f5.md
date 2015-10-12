@@ -2,6 +2,8 @@
 
 |||guidance
 
+In the `sql-5-7.sql` file:
+
 `USE blog;`
 
 ```

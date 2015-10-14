@@ -6,7 +6,7 @@ Simply, change the `*` (all columns) for the specific columns you may want to qu
 
 Let's `SELECT` only the `room_num` of the `schools.classrooms` table and the `title` from the `school.courses` table with an `INNER JOIN`.
 
-Click on the `mysql` command line, `USE` the `school` database and execute the following multi-line statement:
+In the `mysql>` prompt, `USE` the `school` database and execute the following multi-line statement:
 
 ```
 mysql> SELECT classrooms.room_num, courses.title 

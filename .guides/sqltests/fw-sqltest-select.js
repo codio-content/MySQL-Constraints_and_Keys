@@ -95,7 +95,7 @@ function dbLookup(dbName, tasks, userQueriesArr){
 					process.exit(0);
 				}
 			} else {
-				errorLogs.queryMismatch(task);
+				errorLogs.queryMismatchSelect(task);
 			}
 		}).catch(function(){
 			console.log('Failed to retrieve userQueries from db');

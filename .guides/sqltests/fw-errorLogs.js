@@ -6,7 +6,7 @@ var errorMessages = [
 ];
 
 exports.queryDatabase = function(globalCount){
-	console.log(`[Error]: Task ${globalCount}. Your SQL query has syntax errors. Reset the database and try again.`);
+	console.log(`[Error]: Task ${globalCount}. Your SQL query is not correct. Try again.`);
 	// console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }
@@ -33,6 +33,11 @@ exports.readChallengeFile = function(reason, srcFile, tasks, queries){
 }
 exports.queryMismatch = function(task){
 	console.log(`[Error]: ${task}. Reset the database and try again.`);
+	// console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
+	process.exit(1);
+}
+exports.queryMismatchSelect = function(task){
+	console.log(`[Error]: ${task}. Try again.`);
 	// console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }

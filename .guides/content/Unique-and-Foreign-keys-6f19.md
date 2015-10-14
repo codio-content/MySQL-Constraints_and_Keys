@@ -1,20 +1,16 @@
-Defining the `UNIQUE KEY` is pretty straight forward, in this case, the `room_num` may not be repeated because the school building has classrooms with unique numbers.
+Defining the `UNIQUE KEY` is pretty straight forward. 
+
+In this case, the `room_num` may not be repeated because the school building has classrooms with unique numbers.
 
 ```
-CREATE TABLE school.classrooms (
-  ...
-  room_num INT(4) UNSIGNED NOT NULL UNIQUE KEY,
-  ...
+room_num INT(4) UNSIGNED NOT NULL UNIQUE KEY,
 ```
 
 However, the `FOREIGN KEY` includes an additional keyword, `REFERENCES`:
 
 ```
-CREATE TABLE school.classrooms (
-  ...
-  course_id INT(3) UNSIGNED DEFAULT NULL,
-  FOREIGN KEY (course_id) REFERENCES school.courses(id)
-  ...
+course_id INT(3) UNSIGNED DEFAULT NULL,
+FOREIGN KEY (course_id) REFERENCES school.courses(id)
 ```
 
 The syntax that defines the `FOREIGN KEY` above works in the following way: 

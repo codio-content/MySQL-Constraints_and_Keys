@@ -6,9 +6,7 @@ This time, the representation of the SQL `RIGHT OUTER JOIN` looks like this:
 
 ![sql-5-right-outer-join.png](.guides/img/sql-5-right-outer-join.png)
 
-Let's write it as SQL code.
-
-In the `mysql` command line execute: 
+Let's write it as SQL code in the `mysql>` prompt:
 
 ```
 mysql> SELECT * FROM classrooms

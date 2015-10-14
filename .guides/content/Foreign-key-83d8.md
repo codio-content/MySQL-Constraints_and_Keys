@@ -1,3 +1,5 @@
+We've created a `school` database with 2 tables: The `classrooms` table and the `courses` table.
+
 In the `mysql>` prompt, execute a `SHOW COLUMNS FROM school.classrooms;` to display the classroom data definition and a `SHOW COLUMNS FROM school.courses;` to display the courses data definition.
 
 While planning how the school managament system should work, the `classrooms` and the `courses` tables were configured in order to follow these parameters:

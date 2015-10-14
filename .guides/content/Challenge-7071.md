@@ -1,3 +1,5 @@
+{Check It!|assessment}(test-3752095582)
+
 |||info
 ### Reset challenge database
 If you make a mistake while editing the `college` database in this challenge or just want to reset the database back to its original state, click the “Reset Challenge Database” button below.
@@ -5,8 +7,6 @@ If you make a mistake while editing the `college` database in this challenge or 
 {Reset Challenge Database}(node .guides/sqltests/fw-sql-reset-college-1.js)
 |||
 ---
-
-{Check It!|assessment}(test-3752095582)
 
 Complete this set of challenges by creating a `college.classrooms` table in the next section.
 

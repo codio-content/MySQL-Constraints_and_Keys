@@ -2,7 +2,7 @@ In order to update a database table columns configuration, we need to use the `A
 
 Just as we did with the `CREATE TABLE` statement in the first place, the `ALTER TABLE` statement needs to specify the new column to be added to the table and what table column is going to work as the _reference_ field.
 
-Click on the `mysql` command line, `USE` the `school` database and execute this multi-line statement: 
+In the `mysql>` prompt, `USE` the `school` database and execute this multi-line statement: 
 
 ```
 mysql> ALTER TABLE students

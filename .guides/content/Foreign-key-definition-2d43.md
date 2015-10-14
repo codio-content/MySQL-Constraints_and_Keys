@@ -1,6 +1,6 @@
 In order to create the `course_id` reference on the `school.classrooms` table, the `school.courses` must have been created first. 
 
-The SQL statement that _created_ the existing `school.courses` table looks like this (consider that the `school` database was already created):
+The SQL statement that _created_ the existing `school.courses` table looks like this:
 
 ```
 CREATE TABLE school.courses (

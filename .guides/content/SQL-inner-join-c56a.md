@@ -1,4 +1,6 @@
-Click on the `mysql` command line, `USE` the `school` database and execute this SQL multi-line statement: 
+Now that we know that the `school.classrooms` and the `school.courses` have the `course_id` column in common (set as a `FOREIGN KEY` constraint), let's use it to select data from both tables. 
+
+In the `mysql>` prompt, `USE` the `school` database and execute this SQL multi-line statement: 
 
 ```
 mysql> SELECT * FROM classrooms
@@ -36,7 +38,3 @@ Even though the `school.classrooms` table has 4 records, the SQL _inner join_ st
 
 In this case, `course_id` fields with a value of `NULL` are not a valid `FOREIGN KEY`. 
 |||
-
-
----
-Complete a challenge on SQL inner joins in the next section.

@@ -1,4 +1,4 @@
-In the `mysql` command line, `USE` the `school` database and let's examine the output of the following SQL multi-line statement: 
+In the `mysql>` prompt, `USE` the `school` database and let's examine the output of the following SQL multi-line statement: 
 
 ```
 mysql> SELECT * FROM classrooms

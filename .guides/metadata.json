@@ -210,6 +210,23 @@
    "teacherOnly": false
   },
   {
+   "id": "d23628e6-b0a9-29de-e1fe-9aa8a25c1614",
+   "title": "SQL JOIN challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/SQL-JOIN-challenges-d236.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "fb7257bb-1987-fa25-a0eb-abcb7f7fb1d5",
    "title": "Challenge",
    "files": [

@@ -7,9 +7,3 @@ The `FOREIGN KEY` can be specified either with a SQL `CREATE TABLE` statement or
 
 Unlike the `PRIMARY KEY`, __foreign keys can be `NULL`__ and __can be duplicated__. 
 |||
-
-We've created a `school` database with 2 tables: The `classrooms` table and the `courses` table.
-
----
-
-Let's inspect their content in the next section.

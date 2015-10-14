@@ -14,6 +14,14 @@ If you make a mistake while editing the `college` database in this challenge or 
 
 `USE college;`
 
+Single line statement:
+
+``` 
+ALTER TABLE students ADD COLUMN classroom_id INT(3) UNSIGNED NULL, ADD CONSTRAINT FOREIGN KEY (classroom_id) REFERENCES classrooms(id);
+```
+
+Multi-line statement:
+
 ```
 mysql> ALTER TABLE students
     -> ADD COLUMN classroom_id INT(3) UNSIGNED NULL,

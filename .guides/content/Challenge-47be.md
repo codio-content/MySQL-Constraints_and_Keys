@@ -6,9 +6,9 @@
 
 In the `sql-5-6.sql` file:
 
-`USE college;`
-
 ```
+USE college;
+
 SELECT classrooms.course_id, courses.id 
 FROM classrooms
 LEFT OUTER JOIN courses ON

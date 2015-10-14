@@ -6,9 +6,9 @@
 
 In the `sql-5-3.sql` file:
 
-`USE college;`
-
 ```
+USE college;
+
 SELECT * FROM classrooms
 INNER JOIN courses ON
 classrooms.course_id = courses.id;

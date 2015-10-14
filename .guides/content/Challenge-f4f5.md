@@ -4,9 +4,9 @@
 
 In the `sql-5-7.sql` file:
 
-`USE blog;`
-
 ```
+USE blog;
+
 SELECT posts.user_id, users.name, posts.body
 FROM posts
 RIGHT OUTER JOIN users ON

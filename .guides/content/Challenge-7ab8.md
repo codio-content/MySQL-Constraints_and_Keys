@@ -10,9 +10,9 @@ Learn this in the next section.
 
 In the `sql-5-5.sql` file:
 
-`USE college;`
-
 ```
+USE college;
+
 SELECT * FROM classrooms
 RIGHT OUTER JOIN courses ON
 classrooms.course_id = courses.id;

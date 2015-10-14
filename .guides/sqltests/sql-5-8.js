@@ -8,7 +8,7 @@ var tasks = [
   ], 
   [
     'Write a SQL RIGHT OUTER JOIN statement with the requested settings',
-    "SELECT posts.user_id, users.name FROM blog RIGHT OUTER JOIN posts ON posts.user_id = users.id"
+    "SELECT posts.user_id, users.name, posts.body FROM posts RIGHT OUTER JOIN users ON posts.user_id = users.id"
   ]
 ];
 

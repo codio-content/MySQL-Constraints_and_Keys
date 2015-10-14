@@ -292,8 +292,18 @@
   {
    "id": "c587f257-21b9-562a-8b53-a75ec4b851b",
    "title": "Challenge",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "sql-5-4.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [
     "sql-5-4.sql"
    ],

@@ -1,0 +1,195 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-752287859",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "answer": "`NOT NULL`, `API KEY`, `DEFAULT`, `PRIMARY KEY`",
+     "correct": false,
+     "_id": "560ab355682538e87d8e94d4"
+    },
+    {
+     "answer": "`PRIMARY KEY`, `SERIAL KEY`, `NOT NULL`, `FOREIGN KEY`",
+     "correct": false,
+     "_id": "560ab355682538e87d8e94d3"
+    },
+    {
+     "correct": true,
+     "answer": "`NOT NULL`, `FOREIGN KEY`, `PRIMARY KEY`",
+     "_id": "560ab355682538e87d8e94d2"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "SQL Constraints",
+   "instructions": "Please select the correct answer and _Check it!_ to have your answer assessed. If you are wrong, you will see the correct answer highlighted:\n\n__Select the list of that contains only valid SQL constraints:__",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": false
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1197709870",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "A simple blog database",
+   "instructions": "A `sql-5-7.sql` file has been opened for you. \n\nIn the `sql-5-7.sql` file:\n\n1. Use the `blog` database\n1. Write a SQL `RIGHT OUTER JOIN` statement that _joins_ the `user_id` column from the `blog.posts` table, the `name` column of the `blog.users` table and the `body` column of the `blog.posts` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-8.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-177516719",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Altering the comments table",
+   "instructions": "A `mysql` prompt has been opened for you. \n\nUsing the `blog` database (use either a single-line or a multi-line SQL statement):\n\n1. Write a SQL `ALTER TABLE` statement that adds a `post_id` column to the `blog.comments` table. \nThis new column should be an `INTEGER` data type with a max. size of 3 digits, `UNSIGNED`, it should be `NOT NULL` and it should work as a `FOREIGN KEY` that uses as a reference the `id` column of the `blog.posts` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-10.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1960107837",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Altering tables to add foreign keys",
+   "instructions": "A `mysql` prompt has been opened for you. \n\nUsing the `college` database (use either a single-line or a multi-line SQL statement):\n\n1. Write a SQL `ALTER TABLE` statement that adds a `classroom_id` column to the `college.students` table. \nThis new column should be an `INTEGER` data type with a max. size of 3 digits, `UNSIGNED`, it can be `NULL` and it should work as a `FOREIGN KEY` that uses as a reference the `id` column of the `college.classrooms` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-7.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2686927336",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "SQL Left outer join",
+   "instructions": "A `sql-5-4.sql` file has been opened for you. \n\nIn the `sql-5-4.sql` file:\n\n1. Use the `college` database\n1. Write a SQL `LEFT OUTER JOIN` statement that _joins_ the data from the `college.classrooms` table and the `college.courses` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-4.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3133529056",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "SQL JOIN",
+   "instructions": "A `sql-5-3.sql` file has been opened for you. \n\nIn the `sql-5-3.sql` file:\n\n1. Use the `college` database\n1. Write a SQL `SELECT` statement that _joins_ the data from the `college.classrooms` table and the `college.courses` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-3.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-316555491",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Defining the comments table",
+   "instructions": "A `mysql` prompt has been opened for you. \n\nUsing the `blog` database, complete the following tasks:\n\n1. Create a `comments` table with this definition (use either a single-line or a multi-line SQL statement):\n```\n+---------+-----------------+------+-----+---------+----------------+\n| Field   | Type            | Null | Key | Default | Extra          |\n+---------+-----------------+------+-----+---------+----------------+\n| id      | int(3) unsigned | NO   | PRI | NULL    | auto_increment |\n| body    | text            | YES  |     | NULL    |                |\n| user_id | int(7) unsigned | NO   | MUL | NULL    |                |\n+---------+-----------------+------+-----+---------+----------------+\n```\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-9.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3458850085",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Joining specific columns",
+   "instructions": "A `sql-5-6.sql` file has been opened for you. \n\nIn the `sql-5-6.sql` file:\n\n1. Use the `college` database\n1. Write a SQL `LEFT OUTER JOIN` statement that _joins_ only the `course_id` column from the `college.classrooms` table and the `id` column of the `college.courses` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-6.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3752095582",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Defining the reference table",
+   "instructions": "A `mysql` prompt has been opened for you. \n\nUsing the `college` database, complete the following tasks (use either a single-line or a multi-line SQL statement):\n\n1. Create a `courses` table with this definition (try using a multi-line SQL statement):\n```\n+---------+---------------------+------+-----+---------+----------------+\n| Field   | Type                | Null | Key | Default | Extra          |\n+---------+---------------------+------+-----+---------+----------------+\n| id      | int(3) unsigned     | NO   | PRI | NULL    | auto_increment |\n| title   | varchar(255)        | NO   | UNI | NULL    |                |\n| credits | tinyint(2) unsigned | NO   |     | 1       |                |\n+---------+---------------------+------+-----+---------+----------------+\n```\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-1.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4109869715",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Defining the foreign key",
+   "instructions": "A `mysql` prompt has been opened for you. \n\nUsing the `college` database, complete the following tasks (use either a single-line or a multi-line SQL statement):\n\n1. Create a `classrooms` table with this definition (try using a multi-line SQL statement):\n```\n+-----------+-----------------+------+-----+---------+----------------+\n| Field     | Type            | Null | Key | Default | Extra          |\n+-----------+-----------------+------+-----+---------+----------------+\n| id        | int(3) unsigned | NO   | PRI | NULL    | auto_increment |\n| room_num  | int(4) unsigned | NO   | UNI | NULL    |                |\n| course_id | int(3) unsigned | YES  | MUL | NULL    |                |\n+-----------+-----------------+------+-----+---------+----------------+\n```\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4119455732",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "SQL right outer join",
+   "instructions": "A `sql-5-5.sql` file has been opened for you. \n\nIn the `sql-5-5.sql` file:\n\n1. Use the `college` database\n1. Write a SQL `RIGHT OUTER JOIN` statement that _joins_ the data from the `college.classrooms` table and the `college.courses` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "command": "node ~/workspace/.guides/sqltests/sql-5-5.js",
+   "points": 1
+  }
+ }
+]

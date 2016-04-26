@@ -1,0 +1,101 @@
+[
+ {
+  "taskId": "test-1197709870",
+  "points": 0,
+  "results": [
+   {
+    "timestamp": 1446634608817,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-5-7.sql file. File is empty.",
+    "code": 1
+   }
+  ]
+ },
+ {
+  "taskId": "test-177516719",
+  "points": 0,
+  "results": [
+   {
+    "timestamp": 1446634660216,
+    "output": "[Error]: Alter the 'comments' table to add the requested column. Reset the database and try again.",
+    "code": 1
+   }
+  ]
+ },
+ {
+  "taskId": "test-1960107837",
+  "points": 0,
+  "results": [
+   {
+    "timestamp": 1446634555638,
+    "output": "[Error]: Alter the 'students' table to add the requested column. Reset the database and try again.",
+    "code": 1
+   }
+  ]
+ },
+ {
+  "taskId": "test-2686927336",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-5-4.sql file. File is empty.",
+    "timestamp": 1446634281762
+   }
+  ]
+ },
+ {
+  "taskId": "test-3133529056",
+  "points": 0,
+  "results": [
+   {
+    "timestamp": 1446634142183,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-5-3.sql file. File is empty.",
+    "code": 1
+   }
+  ]
+ },
+ {
+  "taskId": "test-3458850085",
+  "points": 0,
+  "results": [
+   {
+    "timestamp": 1446634423721,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-5-6.sql file. File is empty.",
+    "code": 1
+   }
+  ]
+ },
+ {
+  "taskId": "test-3752095582",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "[Error]: Create a courses table with the requested structure. Reset the database and try again.",
+    "timestamp": 1446633878369
+   }
+  ]
+ },
+ {
+  "taskId": "test-4109869715",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "[Error]: Create a 'classrooms' table with the requested structure. Reset the database and try again.",
+    "timestamp": 1446118591658
+   }
+  ]
+ },
+ {
+  "taskId": "test-4119455732",
+  "points": 0,
+  "results": [
+   {
+    "timestamp": 1446634386856,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-5-5.sql file. File is empty.",
+    "code": 1
+   }
+  ]
+ }
+]

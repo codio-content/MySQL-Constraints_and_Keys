@@ -17,8 +17,6 @@ var placeholder = '';
 var sqltest = {};
 sqltest.workspaceDirectory = '/home/codio/workspace/';
 sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
-// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
-// sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 
 // Init process:
 function readChallengeFile(srcFile, tasks){
@@ -48,8 +46,7 @@ function connectTo(db) {
 	connection = mysql.createConnection({
 	  host     : 'localhost',
 	  user     : 'root',
-	  password : 'codiop@nel',
-	  // password : 'N3tp0ePl@n',
+	  password : 'codio',
 	  database : db
 	});
 	connection.connect();
@@ -60,19 +57,21 @@ function queryDatabaseByType(query){
 	var output;
 	return new Promise(function(resolve, reject){
 		connectTo(globalDbName);
-		connection.query(query, function(err, rows, fields) {
-		  if (err) {
-        // console.log(err);
-        // errorLogs.queryMismatch(task);
-  			errorLogs.queryDatabase(globalCount);
-      }
-	  	if (rows.insertId)
-	  		rows.insertId = 1;
-  		output = Utils.sortResult(rows);
-  		resolve(output);
-		});
-		connection.end();
-	});
+    connection.query('SET sql_mode=\'STRICT_ALL_TABLES\'', function () {
+      connection.query(query, function(err, rows, fields) {
+        if (err) {
+          // console.log(err);
+          // errorLogs.queryMismatch(task);
+          errorLogs.queryDatabase(globalCount);
+        }
+        if (rows.insertId)
+          rows.insertId = 1;
+        output = Utils.sortResult(rows);
+        resolve(output);
+      });
+      connection.end();
+    });
+  });
 }
 
 function dbLookup(dbName, tasks, userQueriesArr){

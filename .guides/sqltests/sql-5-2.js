@@ -4,7 +4,7 @@ var sqltest = require("./fw-sqltests.js");
 var tasks = [
   [
     "Create a 'classrooms' table with the requested structure",
-    "INSERT INTO college.classrooms (room_num,course_id) VALUES (324, DEFAULT)",
+    "INSERT INTO college.classrooms (room_num,course_id) VALUES (324, 3)",
     "pass"
   ],
   [

@@ -2,7 +2,7 @@ We've created a `school` database with 2 tables: The `classrooms` table and the 
 
 In the `mysql>` prompt, execute a `SHOW COLUMNS FROM school.classrooms;` to display the classroom data definition and a `SHOW COLUMNS FROM school.courses;` to display the courses data definition.
 
-While planning how the school managament system should work, the `classrooms` and the `courses` tables were configured in order to follow these parameters:
+While planning how the school management system should work, the `classrooms` and the `courses` tables were configured in order to follow these parameters:
 
 - The school offers different _courses_ that are taken by a group of students in a _classroom_
 - The `classrooms` table has a `course_id` column which references the course to be held in a specific classroom

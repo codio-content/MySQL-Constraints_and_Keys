@@ -1,0 +1,211 @@
+{
+ "name": "MySQL-Constraints_and_Keys",
+ "children": [
+  {
+   "title": "Recap",
+   "id": "a5543ba2-1918-68b8-55f7-96f1d934b5de",
+   "pageId": "a5543ba2-1918-68b8-55f7-96f1d934b5de",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "What we'll learn",
+   "id": "152565ef-2c83-e55-72c5-329726759231",
+   "pageId": "152565ef-2c83-e55-72c5-329726759231",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Resetting the unit's databases",
+   "id": "11b0e536-4611-5d-a93d-664fbe813d93",
+   "pageId": "11b0e536-4611-5d-a93d-664fbe813d93",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "The foreign key",
+   "id": "5202e907-2191-526a-6ec8-609c49823c70",
+   "pageId": "5202e907-2191-526a-6ec8-609c49823c70",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Foreign key",
+     "id": "83d8cb10-c525-bc3-9607-643e2feaae20",
+     "pageId": "83d8cb10-c525-bc3-9607-643e2feaae20",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "df1b5c24-acd9-b497-126f-7761d6c0e757",
+     "pageId": "df1b5c24-acd9-b497-126f-7761d6c0e757",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Foreign key definition",
+   "id": "2d43ef57-add5-315e-1a37-5b3742d8e1e8",
+   "pageId": "2d43ef57-add5-315e-1a37-5b3742d8e1e8",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Unique and Foreign keys",
+     "id": "6f19d796-c504-fb07-fd35-8fd5512fe3c4",
+     "pageId": "6f19d796-c504-fb07-fd35-8fd5512fe3c4",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "707154b6-4923-1658-bdef-fcd7a2a2732b",
+     "pageId": "707154b6-4923-1658-bdef-fcd7a2a2732b",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "d222ce7a-4e3b-f828-a6b5-640b2c978e68",
+     "pageId": "d222ce7a-4e3b-f828-a6b5-640b2c978e68",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "SQL inner join",
+   "id": "30bb5789-2046-1a29-7c7f-3fc42078d51b",
+   "pageId": "30bb5789-2046-1a29-7c7f-3fc42078d51b",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "SQL inner join",
+     "id": "c56aedb9-f1cd-357c-25ce-a13b73c068db",
+     "pageId": "c56aedb9-f1cd-357c-25ce-a13b73c068db",
+     "type": "page"
+    },
+    {
+     "title": "SQL JOIN challenges",
+     "id": "d23628e6-b0a9-29de-e1fe-9aa8a25c1614",
+     "pageId": "d23628e6-b0a9-29de-e1fe-9aa8a25c1614",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "fb7257bb-1987-fa25-a0eb-abcb7f7fb1d5",
+     "pageId": "fb7257bb-1987-fa25-a0eb-abcb7f7fb1d5",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "SQL left outer join",
+   "id": "3508a9b-ff31-ff8-f2c5-330aed16f17e",
+   "pageId": "3508a9b-ff31-ff8-f2c5-330aed16f17e",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "SQL left outer join",
+     "id": "ba8c7592-a40e-725c-78aa-7482bd0e3011",
+     "pageId": "ba8c7592-a40e-725c-78aa-7482bd0e3011",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "c587f257-21b9-562a-8b53-a75ec4b851b",
+     "pageId": "c587f257-21b9-562a-8b53-a75ec4b851b",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "SQL right outer join",
+   "id": "d9cb877-d0e0-32ff-dd09-7de5f3352168",
+   "pageId": "d9cb877-d0e0-32ff-dd09-7de5f3352168",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "SQL Joins practical uses",
+     "id": "1a5863e7-1e81-7cea-b0f0-c97df2636ff8",
+     "pageId": "1a5863e7-1e81-7cea-b0f0-c97df2636ff8",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "7ab83015-88c9-c998-54f1-9d04a716faa6",
+     "pageId": "7ab83015-88c9-c998-54f1-9d04a716faa6",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Joining specific columns",
+   "id": "727b3be-af23-d411-f57c-9d9f77db8d77",
+   "pageId": "727b3be-af23-d411-f57c-9d9f77db8d77",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "47bee3-8747-8ac0-43b7-48ceaf2573ed",
+     "pageId": "47bee3-8747-8ac0-43b7-48ceaf2573ed",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Adding the foreign key",
+   "id": "26acbd6e-83e7-b5f-11c-25292dec4da1",
+   "pageId": "26acbd6e-83e7-b5f-11c-25292dec4da1",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Updating the table",
+     "id": "f27f320f-df29-2763-3bef-258860ed7e29",
+     "pageId": "f27f320f-df29-2763-3bef-258860ed7e29",
+     "type": "page"
+    },
+    {
+     "title": "Alter table in detail",
+     "id": "c7bdb929-fc91-5f3e-2620-3bf485559904",
+     "pageId": "c7bdb929-fc91-5f3e-2620-3bf485559904",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "6a7e72ec-6b4-38f6-bf8c-a5d3275c3f27",
+     "pageId": "6a7e72ec-6b4-38f6-bf8c-a5d3275c3f27",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Final challenges",
+   "id": "7df27b16-a1a-9509-82a5-69e688c5bfc8",
+   "pageId": "7df27b16-a1a-9509-82a5-69e688c5bfc8",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "f4f56357-bcc6-5c68-589f-a7be20054e4c",
+     "pageId": "f4f56357-bcc6-5c68-589f-a7be20054e4c",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "7c668398-3d89-b12-beaa-6c17f056e6b0",
+     "pageId": "7c668398-3d89-b12-beaa-6c17f056e6b0",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "fe151867-ec29-b654-9110-e709e3c642a3",
+     "pageId": "fe151867-ec29-b654-9110-e709e3c642a3",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "That's all folks",
+   "id": "ea9e588-d0fc-b5cd-6594-4f9cf8fa6d52",
+   "pageId": "ea9e588-d0fc-b5cd-6594-4f9cf8fa6d52",
+   "type": "chapter",
+   "children": []
+  }
+ ]
+}
